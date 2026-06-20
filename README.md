@@ -12,7 +12,7 @@ For the full methodology, results, and discussion, see the accompanying report: 
 
 ## Project Pipeline
 
-![Project Pipeline](images/project_pipeline.png)
+![Project Pipeline](Images/project_pipeline.png)
 
 The project follows the workflow below:
 
@@ -40,6 +40,8 @@ Since launch failures represent only a small proportion of all launches (~5%), m
 
 ### Main Findings
 
+![XGBoost Confusion Matrix](Images/XGBoost_confusion_matrix.png)
+
 * XGBoost achieved the highest recall and PR-AUC.
 * The model successfully identified 84% of failed launches in the test set.
 * Launch experience variables were among the strongest predictors.
@@ -52,7 +54,7 @@ Because launch failures are safety-critical events, the project prioritizes iden
 
 ## Feature Importance
 
-![XGBoost Feature Importance](images/xgboost_feature_importance.png)
+![XGBoost Feature Importance](Images/XGBoost_feature_importance.png)
 
 The feature importance analysis indicates that variables related to launch pad experience, agency launch history, rocket maturity, and weather conditions contribute substantially to launch failure prediction.
 
